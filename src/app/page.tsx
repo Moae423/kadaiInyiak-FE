@@ -19,14 +19,14 @@ const Home = () => {
           <Button
             variant={"default"}
             className="w-[15rem] py-6 rounded-full bg-[#E6E6D2] text-black text-xl
-     hover:scale-105 hover:bg-[#F7F7F7 transition duration-300 cursor-pointer"
+            hover:scale-105 hover:bg-[#F7F7F7 transition duration-300 cursor-pointer font-semibold"
           >
             Input Data
           </Button>
           <Button
             variant={"default"}
             className="w-[15rem] py-6 rounded-full text-xl cursor-pointer hover:text-black
-     hover:scale-105 hover:bg-[#E6E6D2] transition duration-300"
+            hover:scale-105 hover:bg-[#E6E6D2] transition duration-300 font-semibold"
           >
             Data Karyawan
           </Button>

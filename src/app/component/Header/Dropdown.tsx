@@ -13,12 +13,12 @@ import Link from "next/link";
 const Dropdown = () => {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="cursor-pointer">
+      <DropdownMenuTrigger className="cursor-pointer ">
         <MdMenu size={24} />
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent className="w-48">
         <DropdownMenuLabel>
-          <h1 className="text-[1.5rem] font-semibold ">Menu</h1>
+          <h1 className="text-[1.5rem] font-semibold  ">Menu</h1>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem className="flex gap-2">
